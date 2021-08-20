@@ -1,0 +1,39 @@
+/* google-font  */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* image  */
+.half-width{
+    display: flex;
+    margin-top: 50px;
+}
+.top-banner img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+/* total  */
+.flex{
+    display: flex;
+    margin-top: 30px;
+}
+.left{
+    margin-left: 40px;
+}
+/* footer  */
+.footer{
+    margin-left: 450px;
+    margin-top:20px ;
+}
+.color{
+    background-color: tomato;
+    border: none;
+    padding: 4px;
+    border-radius: 3px;
+}
+/* short-text  */
+.short-text{
+    text-align: center;
+    margin-top: 50px;
+}
