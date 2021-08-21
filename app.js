@@ -34,24 +34,45 @@ document.getElementById('case-button').addEventListener('click', function () {
 document.getElementById('second-case').addEventListener('click', function () {
     const storageInput = document.getElementById('second-number');
     const storageNumber = storageInput.innerText;
-    storageInput.innerText = parseInt(storageNumber);
     storageInput.innerText = 0;
+
+    // update-total
+    const totalInput = document.getElementById('total-price');
+    totalInput.innerText = parseInt(storageNumber) + 1299;
+
+    // total 
+    const subTotal = document.getElementById('sub-total');
+    subTotal.innerText = parseInt(storageNumber) + 1299;
 
 });
 document.getElementById('third-case').addEventListener('click', function () {
     const storageInput = document.getElementById('second-number');
-    const storageNumber = storageInput.innerText;
-    storageInput.innerText = parseInt(storageNumber);
+    let storageNumber = storageInput.innerText;
     storageInput.innerText = 100;
 
+    // update-total
+    const totalInput = document.getElementById('total-price');
+    totalInput.innerText = parseInt(storageNumber) + 1299;
+
+    // total 
+    const subTotal = document.getElementById('sub-total');
+    subTotal.innerText = parseInt(storageNumber) + 1299;
 });
 document.getElementById('fourth-case').addEventListener('click', function () {
     const storageInput = document.getElementById('second-number');
-    const storageNumber = storageInput.innerText;
-    storageInput.innerText = parseInt(storageNumber);
+    let storageNumber = storageInput.innerText;
     storageInput.innerText = 180;
 
+    // update-total
+    const totalInput = document.getElementById('total-price');
+    totalInput.innerText = parseInt(storageNumber) + 1299;
+
+    // total 
+    const subTotal = document.getElementById('sub-total');
+    subTotal.innerText = parseInt(storageNumber) + 1299;
+
 });
+
 
 
 
