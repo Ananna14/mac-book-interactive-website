@@ -33,8 +33,9 @@ document.getElementById('case-button').addEventListener('click', function () {
 // Extra Storage Cost 
 document.getElementById('second-case').addEventListener('click', function () {
     const storageInput = document.getElementById('second-number');
-    const storageNumber = storageInput.innerText;
+    let storageNumber = storageInput.innerText;
     storageInput.innerText = 0;
+    storageNumber = 0;
 
     // update-total
     const totalInput = document.getElementById('totalPrice');
@@ -49,6 +50,7 @@ document.getElementById('third-case').addEventListener('click', function () {
     const storageInput = document.getElementById('second-number');
     let storageNumber = storageInput.innerText;
     storageInput.innerText = 100;
+    storageNumber = 100;
 
     // update-total
     const totalInput = document.getElementById('totalPrice');
@@ -62,6 +64,7 @@ document.getElementById('fourth-case').addEventListener('click', function () {
     const storageInput = document.getElementById('second-number');
     let storageNumber = storageInput.innerText;
     storageInput.innerText = 180;
+    storageNumber = 180;
 
     // update-total
     const totalInput = document.getElementById('totalPrice');
