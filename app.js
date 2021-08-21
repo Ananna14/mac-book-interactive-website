@@ -103,6 +103,8 @@ document.getElementById('delivery-case').addEventListener('click', function () {
 });
 
 
+
+
 // update promo code
 document.getElementById("promoCodeBtn").addEventListener("click", function () {
     let discount = document.getElementById("promoCode").value.trim();
