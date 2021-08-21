@@ -37,3 +37,10 @@ body{
     text-align: center;
     margin-top: 50px;
 }
+/* total-price  */
+ .flex-added{
+    display: flex;
+} 
+.left-added{
+    margin-left: 100px;
+}
